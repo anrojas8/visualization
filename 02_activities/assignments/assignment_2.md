@@ -12,23 +12,107 @@
       ```
       Your answer...
 
+      My experience is in manufacturing. I explored the public Tableu website to identify examples of both effective(good) and ineffective data visualization related to manufacturing performance metrics.
 
+      "GOOD" DATA VISUALIZATION
 
+      https://public.tableau.com/app/profile/ghost.pepper.labs/viz/OEEDemo_0/OEEDashboard
 
+      1. Clear purpose + audience. 
+      OEE dashboards are tipically operational decision tools(maintenance/prodcution leaders), so a strong OEE dashboard usually prioritize:quick status, drivers(availability, performance/quality), and presents decision-relevanr abstractions rather than raw manufacturing data.
+      A dashboard should communicate essential information for monitoring and decision-making at a glance.
 
+      2. Clear legends and labels
+        Clearly labels OEE components.
+        Avoids legend overlap.
+        Uses readable tick marks.
+        Maintains consistent formatting.
+        
+      3. Appropiate use of color
+        The dashboard uses color strategically. Consist color coding across A/P/Q, limited palette, status colors used meaningfull(not decoratively).
 
+      4. Clean layout structure
+        The OEE dashboard demostrates clear sectional grouping(KPI summary vs breakdown vs trend), consistent spacing, no overlapping legends, no clipped labels, visual hierarchy(primary KPI prominent, breakdown secondary)
+
+      5. Avoids chartjunk
+      This dashboard avoids unnecessary background images, avoids 3D effects, avoids decorative icons, keeps attention on metrics.
+
+      6. Multi-view but not overhelming
+      Multiple coordinated views.
+      Each subplot a clear role.
+      The views complement each other than compete.
+
+      "BAD" DATA VISUALIZATION
+
+      https://public.tableau.com/app/profile/rasell.redolosa.lingad/viz/DowntimeReviewData/ProductionAnalysis
+
+      1. Layout density problems
+      The dashboard feels packed rather than structured.
+      Spacing between charts appears tight.
+      Axis labels may feel compressed.
+      Some charts compete for space.
+
+      2. Over-reliance on color for meaning
+      Color is a weak quantitive encoding channel. It increases cognitive load and reduces comparison clarity. This dashboard is color-heavy.
+
+      3. Legend and labeling discipline
+      Potential weakness in this dashboard:
+      Legends may not clearly distinguish categories.
+      Color coding may not be intuitive.
+      Some labels may require interpretation rather than immediate understanding.
+
+      4. Limited emphasis on drivers of OEE
+      Downtime dashboard should clearly answer:
+      What is the largest downtime cause?
+      How does downtime trend over time?
+      Which production line is underperforming?
+      This dasboard presents many slices of downtime without Pareto ordering, no clear ranking structure, no reference line or target. The dasboard lacks decision support clarity.
+
+      5. Weak visual hierarchy
+      This dashboard increases extraneous cognitive load because multiple panels compite for attention, no dominant focal point clearly signals the primary KPI, several charts appear visually equal in importance, dense information is presented without clear visual hierarchy.
+      
 
       ```
     - How could this data visualization have been improved?  
       ```
       Your answer...
 
+      "GOOD" DASHBOARD
 
+      1. Annotate major downtime drivers
+      Instead of just showing downtime categories, add callouts to largest driver, highlight change events, annotate anomalies.
 
+      2. Stronger target reference encoding
+      Adding horizontal reference lines
+      Encoding "above/below target" using subtle background bands.
+      Actual vs target.
 
+      "BAD" DASHBOARD
 
+      1. Simplify and restructure layout
+      Making OEE or total downtime the clear top KPI.
+      Arranging supporting charts below.
+      Reducing total number of charts.
+      Using a 2-column structured grid.
 
-      
+      2. Replace weak chart types
+      Sorted bar charts.
+      Aligned small multiples.
+      Clean time-series lines.
+
+      3. Reduce cognitive load
+      Limiting palette.
+      Removing gridline clutter.
+      Removing non-essential borders.
+      Standardizing fonts.
+
+      4. Remove visual noise
+      Reduce overly satured backgrounds
+      Reduce thick borders.
+      Decorative shapes.
+      Excess KPI tiles.
+
+           
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
